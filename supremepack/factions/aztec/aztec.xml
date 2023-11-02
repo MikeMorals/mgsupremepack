@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="120"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="pyramid" amount="1"/>
+		<unit name="slave" amount="6"/>
+		<unit name="warrior" amount="1"/>
+		<unit name="snake_statue" amount="0"/>
+		<unit name="jaguar_warrior" amount="0"/>
+		<unit name="eagle_warrior" amount="0"/>
+		<unit name="blow_pipe_man" amount="1"/>
+		<unit name="club_fighter" amount="2"/>
+		<unit name="coatl" amount="0"/>
+		<unit name="priest" amount="0"/>
+		<unit name="archer" amount="0"/>
+		<unit name="calmecac" amount="0"/>
+		<unit name="king" amount="0"/>
+	</starting-units>
+	<ai-behavior>
+		<worker-units>
+			<unit name="slave" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="warrior" minimum="1"/>
+			<unit name="shielded_warrior" minimum="1"/>
+			<unit name="club_fighter" minimum="1"/>
+			<unit name="blow_pipe_man" minimum="1"/>
+			<unit name="archer" minimum="1"/>
+			<unit name="eagle_warrior" minimum="1"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="chinampa" minimum="1"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="army_hut" minimum="2"/>
+			<unit name="calmecac" minimum="1"/>
+			<unit name="temple" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="advanced_weapons"/>
+			<upgrade name="feathers"/>
+			<upgrade name="huehueteotl"/>
+			<upgrade name="shields"/>
+			<upgrade name="tonatiuh"/>
+			<upgrade name="wood_weapons"/>
+		</upgrades>
+		<static-values/>
+	</ai-behavior>
+	<music value="true" path="music/tiki_music.ogg"/>
+</faction>

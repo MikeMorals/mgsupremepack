@@ -1,0 +1,21 @@
+TECH
+technodrome now makes battle-machines and catapults
+technician now can harvest max load of 20 instead of 5, and you can only get 5 of them max
+sword-man now uses "leather_and_metal" armor type which is mixes leather/metal to get chainmail characteristics
+battle-machine has armor increase from 45 to 50 i think???
+defense-tower weakened and able to morph into attack-tower
+attack tower health 8000 20 wood armor
+
+NORSMAN
+swordman health from 500 to 700
+battle-axe health from 700 to 800
+swordman-berserk health from 700 to 800 and armor from 35 to 40
+battleaxe-berserk health from 700 to 800 and armor from 50 to 55
+archer attack reaction time from 60 to 70 (anim speed is still 60)
+valkyrie armor from 80 to 100, regeneration from 2 to 3
+cugel-ladie produce time from 40 to 35
+
+
+INDIAN
+stickfighter armor from 9? to 15
+spearman armor from 10 to 20

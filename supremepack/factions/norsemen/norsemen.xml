@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>
+		<resource name="stone" amount="500"/>
+		<resource name="food" amount="50"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="swordman" amount="1"/>
+		<unit name="archer" amount="1"/>
+		<unit name="spearman" amount="2"/>
+		<unit name="cow" amount="2"/>
+		<unit name="axe_thrower" amount="1"/>
+		<unit name="thrall" amount="6"/>
+	</starting-units>
+	<music value="true" path="music/manolo_camp-medieval.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="thrall" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="archer" minimum="3"/>
+			<unit name="cudgel_lady" minimum="5"/>
+			<unit name="swordman" minimum="2"/>
+			<unit name="axe_thrower" minimum="1"/>
+			<unit name="battleaxe" minimum="1"/>
+			<unit name="thor_totem" minimum="2"/>
+			<unit name="thor" minimum="2"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="cow" minimum="30"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="house" minimum="1"/>
+			<unit name="bone_tent" minimum="2"/>
+			<unit name="blacksmith" minimum="1"/>
+			<unit name="farm" minimum="1"/>
+			<unit name="mead_bar" minimum="1"/>
+			<unit name="mistletoe_tree" minimum="1"/>
+			<unit name="valhalla" minimum="1"/>
+		</building-units>
+		<upgrades/>
+		<static-values/>
+	</ai-behavior>
+</faction>

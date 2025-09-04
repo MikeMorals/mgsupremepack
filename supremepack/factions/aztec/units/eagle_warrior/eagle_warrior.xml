@@ -5,16 +5,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="850" regeneration="4"/>
+		<max-hp value="700" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
+		<armor value="30"/>	
 		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="60"/>	
+		<time value="20"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="6"/>
+			<level name="elite" kills="5"/>
+			<level name="holy" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -82,7 +83,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
+			<speed value="220"/>
 			<anim-speed value="130"/>
 			<animation path="models/eagle_warior_walk.g3d"/>
 			<sound enabled="false"/>
@@ -93,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="65"/>
-			<anim-speed value="65"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/eagle_warior_attack.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>

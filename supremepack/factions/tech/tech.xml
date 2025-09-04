@@ -29,7 +29,7 @@
 		</warrior-units>
 		<resource-producer-units>
 			<unit name="farm" minimum="1"/>
-			<unit name="cow" minimum="25"/>
+			<unit name="cow" minimum="5"/>
 		</resource-producer-units>
 		<building-units>
 			<unit name="barracks" minimum="1"/>

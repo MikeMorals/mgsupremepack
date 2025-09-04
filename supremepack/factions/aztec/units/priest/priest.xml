@@ -5,15 +5,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="1"/>
+		<max-hp value="700" regeneration="5"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="35"/>
+		<armor value="30"/>
 		<armor-type value="leather"/>					
 		<sight value="10"/>
-		<time value="80"/>	
+		<time value="40"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="evil" kills="5"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>	
@@ -132,21 +134,22 @@
 			<type value="attack"/>
 			<name value="attack_tlaloc_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="40"/>
-			<anim-speed value="70"/>
-			<animation path="models/priest_2_attack_air.g3d"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/priest_2_attack_land.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/air_attack1.wav"/>
 				<sound-file path="sounds/air_attack2.wav"/>
 				<sound-file path="sounds/air_attack3.wav"/>
 				<sound-file path="sounds/air_attack4.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
-			<attack-var value="40"/>
+			<attack-strenght value="200"/>
+			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="air"/>
+				<field value="land"/>
 			</attack-fields>
 			<attack-start-time value="0.5"/>
 			<projectile value="true">
@@ -159,7 +162,7 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="0"/>
+				<radius value="1"/>
 				<damage-all value="true"/>
 				<particle value="true" path="air_particle_splash.xml"/>
 			</splash>
@@ -264,18 +267,6 @@
 
 		<command>
 			<type value= "attack"/>
-			<name value="attack_of_tonatiuh"/>
-			<image path="images/a1.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="tonatiuh"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<attack-skill value="attack_tonatiuh_skill"/>
-		</command>
-
-		<command>
-			<type value= "attack"/>
 			<name value="attack_of_tlaloc"/>
 			<image path="images/a2.bmp"/>
 			<unit-requirements/>
@@ -341,16 +332,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="jaguar"/>
 		</command-->
-		
-		<command>
-			<type value="upgrade"/>
-			<name value="enhance_coatl_feathers" />
-			<image path="../../upgrades/feathers/images/feathers.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="feathers"/>
-		</command>
 
 	</commands>
 </unit>

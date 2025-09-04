@@ -3,11 +3,11 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<ai-build-size value="4"/>
-		<max-hp value="7000" regeneration="0"/>
+		<ai-build-size value="2"/>
+		<max-hp value="4000" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
-		<armor-type value="wood"/>
+		<armor value="5"/>
+		<armor-type value="stone"/>
 		<sight value="16"/>
 		<time value="140"/>
 		<multi-selection value="false"/>
@@ -74,7 +74,7 @@
 				<sound-file path="sounds/bee3.wav"/>
 				<sound-file path="sounds/bee4.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="100"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="energy"/>
@@ -92,7 +92,11 @@
 					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="4"/>
+				<damage-all value="false"/>
+				<particle value="false"/>
+			</splash>
 		</skill>
 		<skill>
 			<type value="die"/>

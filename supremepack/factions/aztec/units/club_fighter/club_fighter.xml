@@ -4,16 +4,16 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900"  regeneration="2"/>
+		<max-hp value="900"  regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="30"/>	
-		<armor-type value="wood"/>
+		<armor value="40"/>	
+		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="60"/>	
+		<time value="15"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="4"/>
+			<level name="elite" kills="3"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -26,7 +26,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="50"/>
-			<resource name="gold" amount="100"/>
+			<resource name="gold" amount="120"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -68,7 +68,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="170"/>
 			<anim-speed value="90"/>
 			<animation path="models/club_man_walk.g3d"/>
 			<sound enabled="false"/>
@@ -78,8 +78,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="115"/>
+			<speed value="170"/>
+			<anim-speed value="100"/>
 			<animation path="models/club_man_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -88,7 +88,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="90"/>
+			<speed value="50"/>
 			<anim-speed value="100"/>
 			<animation path="models/club_man_attack.g3d"/>
 			<sound enabled="true" start-time="0.47">
@@ -105,8 +105,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound> 
-			<attack-strenght value="85"/>
-			<attack-var value="15"/>
+			<attack-strenght value="150"/>
+			<attack-var value="50"/>
 			<attack-range value="1"/>
 			<attack-type value="impact"/>	
 			<attack-fields>

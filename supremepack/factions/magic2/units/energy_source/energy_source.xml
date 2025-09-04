@@ -3,7 +3,7 @@
 	<parameters>
 		<size value="2" />
 		<height value="2" />
-		<ai-build-size value="3"/>
+		<ai-build-size value="1"/>
 		<max-hp value="1400" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -28,7 +28,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="100"/>
 			<resource name="stone" amount="100"/>
-			<resource name="energy" amount="-16"/>
+			<resource name="energy" amount="-30"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/energy_source.bmp"/>

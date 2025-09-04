@@ -129,6 +129,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="guard"/>
 		</command>
+		<!--
 		<command>
 			<type value="produce"/>
 			<name value="produce_horseman" />
@@ -138,6 +139,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="horseman"/>
 		</command>
+		-->
 		<command>
 			<type value="upgrade"/>
 			<name value="create_training_field"/>

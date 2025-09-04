@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/hell_gate.bmp"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="350"/>
+	<time value="240"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

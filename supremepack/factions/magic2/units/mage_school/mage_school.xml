@@ -78,7 +78,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="300" />
+			<speed value="100" />
 			<anim-speed value="300" />
 			<animation path="models/mage_school.g3d" />
 			<sound enabled="false" />
@@ -105,7 +105,7 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="merc_mage"/>
+			<produced-unit name="battlemage"/>
 		</command>
 		
 		<command>

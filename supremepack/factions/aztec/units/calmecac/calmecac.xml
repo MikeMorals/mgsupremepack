@@ -9,6 +9,7 @@
 		<armor-type value="stone"/>
 		<sight value="6" />
 		<time value="100" />
+		<ai-build-size value="4"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
@@ -81,8 +82,8 @@
 			<type value="produce"/>
 			<name value="produce_archer_skill"/>	
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="100" />
+			<anim-speed value="100" />
 			<animation path="models/calmecac_train_archer.g3d" />
 			<sound enabled="false" />
 		</skill>	
@@ -91,8 +92,8 @@
 			<type value="produce"/>
 			<name value="produce_ew_skill"/>	
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="100" />
+			<anim-speed value="100" />
 			<animation path="models/calmecac_make_ew.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -101,8 +102,8 @@
 			<type value="produce"/>
 			<name value="produce_jw_skill"/>	
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="100" />
+			<anim-speed value="100" />
 			<animation path="models/calmecac_make_jw.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -126,6 +127,16 @@
 	
 		<command>
 			<type value="produce"/>
+			<name value="produce_shielded_warrior" />
+			<image path="../shielded_warrior/images/self.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_archer_skill"/>
+			<produced-unit name="shielded_warrior"/>
+		</command>
+		
+		<command>
+			<type value="produce"/>
 			<name value="produce_archer" />
 			<image path="../archer/images/archer.bmp" />
 			<unit-requirements />
@@ -133,27 +144,18 @@
 			<produce-skill value="produce_archer_skill"/>
 			<produced-unit name="archer"/>
 		</command>
-	
+		
 		<command>
 			<type value="produce"/>
-			<name value="produce_eagle_warrior" />
-			<image path="../eagle_warrior/images/ew.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_ew_skill"/>
-			<produced-unit name="eagle_warrior"/>
-		</command>
-	
-		<command>
-			<type value="produce"/>
-			<name value="produce_jaguar_warrior" />
-			<image path="../jaguar_warrior/images/jw.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_jw_skill"/>
+			<name value="summon_jaguar_warrior"/>
+			<image path="../jaguar_warrior/images/self.bmp"/>
+			<upgrade-requirements/>
+			<unit-requirements value="temple"/>
+			<produce-skill value="produce_archer_skill"/>
 			<produced-unit name="jaguar_warrior"/>
-		</command>	
+		</command>
 
+		<!--
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_shields" />
@@ -172,6 +174,9 @@
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="advanced_weapons"/>
-		</command>			
+		</command>		
+		-->
+
+		
 	</commands>
 </unit>

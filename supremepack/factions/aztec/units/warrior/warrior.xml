@@ -4,16 +4,16 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="0"/>
+		<max-hp value="700" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="30"/>	
+		<armor value="20"/>	
 		<armor-type value="leather"/>				
 		<sight value="10"/>
-		<time value="60"/>	
+		<time value="10"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="3"/>
+			<level name="elite" kills="2"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -25,8 +25,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="30"/>
-			<resource name="gold" amount="60"/>
+			<resource name="wood" amount="25"/>
+			<resource name="gold" amount="50"/>
 			<resource name="food" amount="1"/>						
 		</resource-requirements>
 		<resources-stored/>
@@ -78,8 +78,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="145"/>
+			<speed value="220"/>
+			<anim-speed value="110"/>
 			<animation path="models/stick_fighter_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -105,8 +105,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound> 
-			<attack-strenght value="80"/>
-			<attack-var value="30"/>
+			<attack-strenght value="75"/>
+			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>
 			<attack-fields>
@@ -185,16 +185,18 @@
 			<attack-skill value="attack_skill"/>
 		</command>
 
+		<!--
 		<command>
 			<type value="morph"/>
 			<name value="promote_to_shielded_warrior"/>
-			<image path="../shielded_warrior/images/guard.bmp"/>
+			<image path="../shielded_warrior/images/self.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "shielded_warrior"/>
 			<discount value="60"/>
-		</command>	
+		</command>
+		-->
 
 	</commands>
 </unit>

@@ -7,10 +7,10 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="1"/>
+		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="40"/>
-		<armor-type value="leather"/>
+		<armor value="25"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
 		<time value="60"/>
 		<multi-selection value="true"/>
@@ -29,7 +29,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="120"/>
-			<resource name="wood" amount="55"/>
+			<resource name="wood" amount="50"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -106,8 +106,8 @@
 				<sound-file path="sounds/daemon_attack7.wav"/>
 				<sound-file path="sounds/daemon_attack8.wav"/>
 			</sound>
-			<attack-strenght value="160"/>
-			<attack-var value="40"/>
+			<attack-strenght value="100"/>
+			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>

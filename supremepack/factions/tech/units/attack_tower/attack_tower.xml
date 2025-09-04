@@ -6,9 +6,9 @@
 		<ai-build-size value="4"/>
 		<burn-height value="6" />
 		<target-height value="7" />
-		<max-hp value="8000" regeneration="0"/>
+		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="10"/>
 		<armor-type value="stone"/>
 		<sight value="16"/>
 		<time value="100"/>
@@ -74,7 +74,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
 			</sound>
-			<attack-strenght value="225"/>
+			<attack-strenght value="125"/>
 			<attack-var value="25"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>

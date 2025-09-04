@@ -7,17 +7,15 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="2000" regeneration="4"/>
+		<max-hp value="2500" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
+		<armor value="5"/>
 		<armor-type value="stone"/>
 		<sight value="10"/>
 		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels>
-			<level name="advanced" kills="10"/>
-		</levels>
+		<levels/>
 		<fields>
 			<field value="land"/>
                         <field value="air"/>

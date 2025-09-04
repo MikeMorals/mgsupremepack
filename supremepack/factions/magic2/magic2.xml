@@ -5,39 +5,43 @@
 		<resource name="gold" amount="500"/>
 		<resource name="wood" amount="500"/>
 		<resource name="stone" amount="500"/>
-		<resource name="energy" amount="1"/>
+		<resource name="energy" amount="30"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="mage_tower" amount="1"/>
-		<unit name="initiate" amount="6"/>
+		<unit name="initiate" amount="8"/>
 		<unit name="battlemage" amount="3"/>
-		<unit name="summoner" amount="1"/>
-		<unit name="ghost_armor" amount="3"/>
-		<unit name="golem" amount="1"/>
+		<unit name="summoner" amount="3"/>
+		<unit name="ghost_armor" amount="0"/>
+		<unit name="golem" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<worker-units>
-			<unit name="initiate" minimum="25"/>
+			<unit name="initiate" minimum="5"/>
 		</worker-units>
 		<warrior-units>
-			<unit name="battlemage" minimum="3"/>
-			<unit name="daemon" minimum="3"/>
+			<unit name="ghost_armor" minimum="1"/>
+			<unit name="battlemage" minimum="1"/>
+			<unit name="daemon" minimum="1"/>
 		</warrior-units>
 		<resource-producer-units/>
+		<!--
 		<building-units>
 			<unit name="summoner_guild" minimum="1"/>
 			<unit name="mage_school" minimum="1"/>
 			<unit name="library" minimum="1"/>
 			<unit name="archmage_tower" minimum="1"/>
 		</building-units>
+		-->
 		<upgrades>
 			<upgrade name="ancient_summoning"/>
 			<upgrade name="energy_sharpening"/>
 			<upgrade name="hell_gate"/>
 			<upgrade name="faster_movement"/>
 		</upgrades>
+		<!--
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="9"/>
 			<static type-name="MinMinWarriorsExpandCpuMega" value="20"/>
@@ -45,5 +49,6 @@
 			<static type-name="MinStaticResourceCount" value="30"/>
 			<static type-name="MinWorkerAttackersHarvesting" value="35"/>
 		</static-values>
+		-->
 	</ai-behavior>
 </faction>

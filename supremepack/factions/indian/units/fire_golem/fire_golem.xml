@@ -9,15 +9,13 @@
 		<height value="2"/>
 		<max-hp value="2500" regeneration="3"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="5"/>
+		<armor value="0"/>
 		<armor-type value="stone"/>
 		<sight value="10"/>
 		<time value="150"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels>
-			<level name="ancient" kills="10"/>
-		</levels>
+		<levels/>
 		<fields>
 			<field value="land"/>
 		</fields>

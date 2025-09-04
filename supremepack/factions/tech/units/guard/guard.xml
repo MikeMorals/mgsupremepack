@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900"  regeneration="2"/>
+		<max-hp value="900"  regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="40"/>
 		<armor-type value="leather_and_metal"/>
@@ -13,7 +13,7 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="4"/>
+			<level name="elite" kills="3"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -26,9 +26,9 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="75"/>
+			<resource name="wood" amount="50"/>
 			<resource name="gold" amount="150"/>
-			<resource name="food" amount="2"/>
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/guard.bmp"/>
@@ -96,14 +96,14 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="75"/>
+			<attack-strenght value="100"/>
 			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0"/>
+			<attack-start-time value="0.20"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>
@@ -131,7 +131,14 @@
 			<speed value="170"/>
 			<anim-speed value="120"/>
 			<animation path="models/guard_charging.g3d"/>
-			<sound enabled="false"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/newsounds/metal_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/1silence.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/metal_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/1silence.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/metal_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/1silence.wav"/>
+			</sound>
 		</skill>
 
 	</skills>

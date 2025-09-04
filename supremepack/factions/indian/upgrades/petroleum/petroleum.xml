@@ -12,13 +12,14 @@
 	</resource-requirements>
 	<effects>
 		<unit name="fire_archer"/>
+		<unit name="fire_golem"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
-	<sight value="1"/>
-	<attack-strenght value="40"/>
+	<sight value="5"/>
+	<attack-strength value="0"/>
 	<attack-range value="0"/>
-	<armor value="0"/>
-	<move-speed value="0"/>
-	<production-speed value="0"/>
+	<armor value="5"/>
+	<move-speed value="10"/>
+	<production-speed value="50"/>
 </upgrade>

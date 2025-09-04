@@ -78,8 +78,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="145"/>
+			<speed value="200"/>
+			<anim-speed value="100"/>
 			<animation path="models/tutuli_man_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>

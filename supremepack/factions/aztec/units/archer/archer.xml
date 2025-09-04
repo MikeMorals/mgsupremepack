@@ -4,17 +4,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="3"/>
-		<max-hp value="700" regeneration="3"/>
+		<max-hp value="700" regeneration="4"/>
 		<max-ep value="0"/>
 		<armor value="20"/>	
 		<armor-type value="leather"/>				
 		<sight value="15"/>
-		<time value="60"/>	
+		<time value="15"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="strong" kills="6"/>
-			<level name="champion" kills="15"/>
+			<level name="strong" kills="5"/>
+			<level name="champion" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -24,7 +24,7 @@
 		<light enabled="false"/>
 		<resource-requirements>
 			<resource name="wood" amount="60"/>
-			<resource name="gold" amount="100"/>
+			<resource name="gold" amount="150"/>
 			<resource name="food" amount="1"/>				
 		</resource-requirements>
 		<unit-requirements/>
@@ -88,20 +88,20 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/archer_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
+			<sound enabled="true" start-time="0.55">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="107"/>
-			<attack-var value="43"/>
+			<attack-strenght value="100"/>
+			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0.55"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>

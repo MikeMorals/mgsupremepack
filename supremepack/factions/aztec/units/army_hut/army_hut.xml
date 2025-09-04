@@ -11,6 +11,7 @@
 		<time value="60" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
+		<ai-build-size value="4"/>
 		<cellmap value="true">
 			<row value="111"/>
 			<row value="101"/>
@@ -112,6 +113,18 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="warrior"/>
 		</command>
+
+		<!--
+		<command>
+			<type value="produce"/>
+			<name value="produce_club_fighter" />
+			<image path="../club_fighter/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="club_fighter"/>
+		</command>
+		-->
 		
 		<command>
 			<type value="produce"/>
@@ -123,26 +136,7 @@
 			<produced-unit name="blow_pipe_man"/>
 		</command>
 
-		<command>
-			<type value="produce"/>
-			<name value="produce_club_fighter" />
-			<image path="../club_fighter/images/swordman.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="club_fighter"/>
-		</command>
-		
-		<command>
-			<type value="produce"/>
-			<name value="produce_shielded_warrior" />
-			<image path="../shielded_warrior/images/guard.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="shielded_warrior"/>
-		</command>	
-
+		<!--
 		<command>
 			<type value="produce"/>
 			<name value="produce_tepoztopilli_man" />
@@ -152,16 +146,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="tepoztopilli_man"/>
 		</command>	
-
-		<command>
-			<type value="upgrade"/>
-			<name value="upgrade_wood_weapons" />
-			<image path="../../upgrades/wood_weapons/images/ww.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="wood_weapons"/>
-		</command>	
+		-->
 		
 	</commands>
 </unit>

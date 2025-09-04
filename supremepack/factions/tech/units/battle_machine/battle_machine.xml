@@ -6,12 +6,12 @@
 		<size value="2"/>
 		<height value="3"/>
 		<ai-build-size value="3"/>
-		<max-hp value="2500" regeneration="5"/>
+		<max-hp value="2500" regeneration="20"/>
 		<max-ep value="0"/>
-		<armor value="60"/>
-		<armor-type value="wood"/>
+		<armor value="50"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="150"/>
+		<time value="50"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -28,7 +28,7 @@
 			<unit name="technodrome"/>
 		</unit-requirements>
 		<upgrade-requirements>
-			<upgrade name="robotics"/>
+			<upgrade name="shield_level_1"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
@@ -122,8 +122,8 @@
 				<sound-file path="sounds/machine_attack2b.wav"/>
 				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
-			<attack-var value="75"/>
+			<attack-strenght value="175"/>
+			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
@@ -171,11 +171,11 @@
 			<anim-speed value="100"/>
 			<animation path="models/battle_machine_charging.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_walk1.wav"/>
-				<sound-file path="sounds/machine_walk2.wav"/>
-				<sound-file path="sounds/machine_walk3.wav"/>
-				<sound-file path="sounds/machine_walk4.wav"/>
-				<sound-file path="sounds/machine_walk5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/machine_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/machine_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/machine_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/machine_walk4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/machine_walk5.wav"/>
 			</sound>
 		</skill>
 

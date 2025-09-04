@@ -4,12 +4,12 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="1200" regeneration="3"/>
+		<max-hp value="1500" regeneration="4"/>
 		<max-ep value="0"/>
-		<armor value="15"/>
-		<armor-type value="wood"/>
+		<armor value="5"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="100"/>
+		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -84,15 +84,15 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/crossbow_attacking.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
 			<attack-strenght value="250"/>
-			<attack-var value="90"/>
+			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0"/>

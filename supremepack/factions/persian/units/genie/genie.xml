@@ -3,9 +3,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="1"/>
+		<max-hp value="700" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="15"/>
 		<armor-type value="leather"/>
 		<sight value="15"/>
 		<time value="45"/>
@@ -109,7 +109,7 @@
 				<sound-file path="sounds/genie_attack2.wav"/>
 			</sound>
 			<attack-strenght value="100"/>
-			<attack-var value="40"/>
+			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="3"/>
+		<max-hp value="1000" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
 		<armor-type value="leather"/>
@@ -75,7 +75,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
-			<animation path="models/archer_standing.g3d"/>
+			<animation path="models/idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -85,7 +85,7 @@
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="125"/>
-			<animation path="models/archer_walking.g3d"/>
+			<animation path="models/run.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -94,17 +94,17 @@
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="50"/>
-			<anim-speed value="25"/>
-			<animation path="models/archer_attacking.g3d"/>
+			<anim-speed value="40"/>
+			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strenght value="250"/>
 			<attack-var value="50"/>
-			<attack-range value="12"/>
+			<attack-range value="11"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
@@ -130,7 +130,7 @@
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
-			<animation path="models/archer_dying.g3d"/>
+			<animation path="models/die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die2.wav"/>

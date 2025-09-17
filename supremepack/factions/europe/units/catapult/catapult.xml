@@ -7,10 +7,10 @@
 		<ai-build-size value="3"/>
 		<max-hp value="2500" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="40"/>
-		<armor-type value="wood"/>
+		<armor value="5"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="11"/>
-		<time value="150"/>
+		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>

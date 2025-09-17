@@ -201,7 +201,7 @@
 			<type value="morph"/>
 			<name value="build_catapult"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="100"/>
 			<anim-speed value="200"/>
 			<animation path="models/technician_morphing_catapult.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -218,7 +218,7 @@
 			<type value="morph"/>
 			<name value="build_battle_machine"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="100"/>
 			<anim-speed value="200"/>
 			<animation path="models/technician_morphing_battle_machine.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -235,7 +235,7 @@
 			<type value="morph"/>
 			<name value="build_air_ballista"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="100"/>
 			<anim-speed value="200"/>
 			<animation path="../air_ballista/models/air_ballista_morphing.g3d"/>
 			<sound enabled="true" start-time="0">

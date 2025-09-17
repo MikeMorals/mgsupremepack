@@ -9,7 +9,7 @@
 		<armor value="0"/>
 		<armor-type value="stone"/>
 		<sight value="15"/>
-		<time value="180"/>
+		<time value="40"/>
 		<multi-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
@@ -24,8 +24,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="250"/>
 			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="250"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>

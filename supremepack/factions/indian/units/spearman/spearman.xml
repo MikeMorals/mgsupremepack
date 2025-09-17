@@ -7,11 +7,11 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="5"/>
+		<max-hp value="700" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
-		<armor-type value="leather"/>
-		<sight value="14"/>
+		<armor value="20"/>
+		<armor-type value="leather_and_metal"/>
+		<sight value="15"/>
 		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -85,7 +85,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
+			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/spearman_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -97,7 +97,7 @@
 				<sound-file path="sounds/stickfighter_attack6.wav"/>
 				<sound-file path="sounds/stickfighter_attack7.wav"/>
 			</sound>
-			<attack-strenght value="75"/>
+			<attack-strenght value="100"/>
 			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>

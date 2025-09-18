@@ -1,4 +1,4 @@
-my newly updated supremepack for megaglest
+my newly updated supremepack for megaglest 
 the other repository bugged and was soft locked so i couldnt update it.
 		FACTION EUROPE
 no battlemachine or airship
